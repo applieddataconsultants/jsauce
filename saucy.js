@@ -1,1 +1,1 @@
-saucy = () => 'js'
+let saucy = () => 'js'
