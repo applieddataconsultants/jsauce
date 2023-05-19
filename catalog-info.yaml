@@ -1,22 +1,10 @@
-apiVersion: jsauce/v1alpha1
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: jsauce
-  description: The place to be, for great sauce
-  labels:
-    example.com/custom: custom_label_value
   annotations:
-    example.com/service-discovery: artistweb
-    circleci.com/project-slug: github/example-org/artist-website
-  tags:
-    - java
-  links:
-    - url: https://admin.example-org.com
-      title: Admin Dashboard
-      icon: dashboard
-      type: admin-dashboard
+    github.com/project-slug: applieddataconsultants/jsauce
 spec:
-  type: website
-  lifecycle: production
-  owner: artist-relations-team
-  system: public-websites
+  type: other
+  lifecycle: unknown
+  owner: wavded@gmail.com
